@@ -4,7 +4,7 @@ import NavigationBar from "./NavigationBar";
 function Portfolio() {
     return (<div>
         <NavigationBar />
-        <p>Portfolio</p>
+        <h2>Portfolio</h2>
         </div>);
   }
 

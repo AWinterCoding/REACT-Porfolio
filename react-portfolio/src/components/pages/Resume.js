@@ -1,5 +1,6 @@
 import React from "react";
-import NavigationBar from "./NavigationBar";
+import NavigationBar from "../fragments/NavigationBar";
+import Footer from "../fragments/Footer";
 
 function Resume() {
     return (<div>
@@ -21,6 +22,7 @@ function Resume() {
                 <li>Sequelize</li>
             </ul>
         </section>
+        <Footer/>
         </div>);
   }
 

@@ -1,5 +1,6 @@
 import React from "react";
-import NavigationBar from "./NavigationBar";
+import NavigationBar from "../fragments/NavigationBar";
+import Footer from "../fragments/Footer";
 
 // each of the respective components render with the navigation bar because we are 
 // calling the navigation bar component inside of the element
@@ -20,6 +21,7 @@ function AboutMe() {
     </ul>
     <p>Please feel free to explore this website I made with REACT.</p>
     </section>
+    <Footer/>
     </div>
     );
   }

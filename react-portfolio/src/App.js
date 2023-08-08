@@ -1,8 +1,8 @@
 import React from 'react';
-import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
+import AboutMe from './components/pages/AboutMe';
+import Portfolio from './components/pages/Portfolio';
+import Resume from './components/pages/Resume';
+import Contact from './components/pages/Contact';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {

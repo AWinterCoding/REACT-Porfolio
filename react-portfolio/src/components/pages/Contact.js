@@ -1,5 +1,6 @@
 import React from "react";
-import NavigationBar from "./NavigationBar";
+import NavigationBar from "../fragments/NavigationBar";
+import Footer from "../fragments/Footer";
 
 function Contact() {
     return (<div>
@@ -16,6 +17,7 @@ function Contact() {
                 <button type="submit">Submit</button>
             </form>
         </section>
+        <Footer/>
         </div>);
   }
 

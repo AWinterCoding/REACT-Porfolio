@@ -5,6 +5,8 @@ import Footer from "../fragments/Footer";
 function Resume() {
     return (<div>
         <NavigationBar />
+        <div className="background">
+        <div className="container">
         <section>
             <h2>Resume</h2>
             <a href="#">Download Resume</a>
@@ -23,6 +25,8 @@ function Resume() {
             </ul>
         </section>
         <Footer/>
+        </div>
+        </div>
         </div>);
   }
 

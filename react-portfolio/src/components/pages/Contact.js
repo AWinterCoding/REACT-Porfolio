@@ -5,6 +5,8 @@ import Footer from "../fragments/Footer";
 function Contact() {
     return (<div>
         <NavigationBar />
+        <div className="background">
+        <div className="container">
         <section>
             <h2>Contact Me</h2>
             <form>
@@ -18,6 +20,8 @@ function Contact() {
             </form>
         </section>
         <Footer/>
+        </div>
+        </div>
         </div>);
   }
 

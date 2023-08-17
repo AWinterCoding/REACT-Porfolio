@@ -21,7 +21,7 @@ function AboutMe() {
         <li className="activity">Video Games</li>
         <li className="activity">Motorcycles</li>
     </ul>
-    <p>Please feel free to explore this website I made with REACT.</p>
+    <p id="bottom">Please feel free to explore this website I made with REACT.</p>
     </section>
     <Footer/>
     </div>

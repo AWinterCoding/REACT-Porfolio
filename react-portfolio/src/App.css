@@ -83,7 +83,7 @@ p{
     border-width: 10px;
 }
 footer{
-    margin-top: 55px;
+    margin-top: 10px;
 }
 footer a{
     color: #fc889e;
@@ -92,4 +92,21 @@ footer a{
 }
 footer a:hover{
     color: #D14D72;
+}
+.proficiency{
+    color: #FEF2F4;
+    float: none;
+    padding: 10px 20px;
+}
+.proficiencies{
+    border-radius: 20px;
+    width: 200px;
+    padding: 5px;
+    border-style: double;
+    border-width:10px;
+    border-color: #FEF2F4;
+    margin: 0px;
+}
+#bottom{
+    margin-bottom: 80px;
 }

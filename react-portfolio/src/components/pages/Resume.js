@@ -10,18 +10,18 @@ function Resume() {
         <section>
             <h2>Resume</h2>
             <a href="#">Download Resume</a>
-            <h4>Proficiencies:</h4>
-            <ul>
-                <li>MERN</li>
-                <li>REACT</li>
-                <li>Express</li>
-                <li>Mongo</li>
-                <li>Node</li>
-                <li>HandleBars</li>
-                <li>Javascript</li>
-                <li>CSS</li>
-                <li>mySQL</li>
-                <li>Sequelize</li>
+            <h3>Proficiencies:</h3>
+            <ul className="proficiencies">
+                <li className="proficiency">MERN</li>
+                <li className="proficiency">REACT</li>
+                <li className="proficiency">Express</li>
+                <li className="proficiency">Mongo</li>
+                <li className="proficiency">Node</li>
+                <li className="proficiency">HandleBars</li>
+                <li className="proficiency">Javascript</li>
+                <li className="proficiency">CSS</li>
+                <li className="proficiency">mySQL</li>
+                <li className="proficiency">Sequelize</li>
             </ul>
         </section>
         <Footer/>

@@ -4,6 +4,7 @@ import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import './App.css';
 
 
 function App() {

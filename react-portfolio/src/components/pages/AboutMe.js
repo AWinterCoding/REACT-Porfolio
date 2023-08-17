@@ -7,21 +7,25 @@ import Footer from "../fragments/Footer";
 function AboutMe() {
     return (<div>
     <NavigationBar />
+    <div className="background">
+    <div className="container">
     <section>
-    <h2>AboutMe</h2>
-    <h4>Alexandra Winter</h4>
+    <h2>About Me</h2>
+    <h3>Alexandra Winter</h3>
     <p>Hello! My name is Alexandra Winter, I am an aspiring web developer</p>
     <p>As of making this webpage I am currently the most versed in the MERN stack</p>
     <p>However there are a lot of things I enjoy doing outside of web development such as</p>
-    <ul>
-        <li>Camping</li>
-        <li>Hiking</li>
-        <li>Video Games</li>
-        <li>and Motorcycles</li>
+    <ul className="activites">
+        <li className="activity">Camping</li>
+        <li className="activity">Hiking</li>
+        <li className="activity">Video Games</li>
+        <li className="activity">Motorcycles</li>
     </ul>
     <p>Please feel free to explore this website I made with REACT.</p>
     </section>
     <Footer/>
+    </div>
+    </div>
     </div>
     );
   }

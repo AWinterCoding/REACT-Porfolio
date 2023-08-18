@@ -110,3 +110,67 @@ footer a:hover{
 #bottom{
     margin-bottom: 80px;
 }
+.contact{
+    width: 300px;
+    margin: auto;
+}
+.contact label{
+    font-size: 24px;
+}
+.contact input{
+    margin: 10px;
+}
+#message{
+    width: 300px;
+    padding-bottom: 300px;
+}
+#submit{
+    margin-top: 15px;
+    background-color: #FEF2F4;
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+#submit:hover{
+    cursor: pointer;
+        color: #FEF2F4;
+        background-color: #fc889e;
+        box-shadow: 0 5px 15px rgba(196, 119, 141, 0.4);
+}
+/* yoinked this from here: https://stackoverflow.com/questions/38377062/how-to-make-html-button-look-pressed-in-using-css
+However I do know what the code below does, just the exact values are hard to pin down */
+#submit:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
+  .card{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 15px;
+    background-color: #FCC8D1;
+    height: 400px;
+
+  }
+  .cardAnchor{
+    margin: auto;
+    width: 200px;
+    text-align: center;
+  }
+  .cardList{
+    width: 200px;
+    margin: auto;
+  }
+  .cardAnchor a{
+    background-color: #FCC8D1;
+  }
+  .cardAnchor a:hover{
+    background-color: #FCC8D1;
+    color: #fc889e;
+  }

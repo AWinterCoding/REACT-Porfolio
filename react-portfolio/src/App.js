@@ -5,6 +5,7 @@ import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './App.css';
+import projects from './components/fragments/Projects';
 
 
 function App() {

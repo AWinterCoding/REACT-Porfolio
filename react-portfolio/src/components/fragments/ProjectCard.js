@@ -1,0 +1,28 @@
+import React from "react";
+
+export default function ReturnCards({projects}){
+    return(
+        <div className="Card Holder">
+        {projects.map((project) => (
+          <div className="card">
+            <br></br>
+            <h3>{`${project.ProjectName}`}</h3>
+            <ul className="cardList">
+            <li className="cardAnchor">
+            <a href={project.GitHub}>GitHub</a>
+            </li>
+            <br></br>
+            <li className="cardAnchor">
+            <a href={project.VideoLink}>Video Link</a>
+            </li>
+            <br></br>
+            <li className="cardAnchor">
+            <a href={project.DeployedApplication}>Deployed Application</a>
+            </li>
+            </ul>
+          </div>
+        ))}
+            </div>
+        );
+}
+

@@ -9,15 +9,21 @@ function Contact() {
         <div className="container">
         <section>
             <h2>Contact Me</h2>
+            <div className="contact">
             <form>
-                <label>Your Name Here:</label>
-                <input type="text"></input>
-                <label>Email Address:</label>
-                <input type="text"></input>
-                <label>Message:</label>
-                <input type="text"></input>
-                <button type="submit">Submit</button>
+                <label>Your Name Here: </label>
+                <input required="true" type="text"></input>
+                <br></br>
+                <label>Email Address: </label>
+                <input required="true" type="text"></input>
+                <br></br>
+                <label>Message: </label>
+                <br></br>
+                <input id="message" type="text"></input>
+                <br></br>
+                <button id="submit" type="submit">Submit</button>
             </form>
+            </div>
         </section>
         <Footer/>
         </div>

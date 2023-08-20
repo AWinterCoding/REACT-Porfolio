@@ -51,6 +51,7 @@ font-size:20px;}
 body{
     background-image: url("./resources/CherryBlossom.jpeg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: 100%;
 }
 .background{
@@ -58,7 +59,7 @@ body{
     width: 50%;
     margin: auto;
     margin-top: 20px;
-    height:800px;
+    /* height:800px; */
     padding: 10px;
     border-radius: 25px;
 }

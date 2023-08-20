@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ReturnCards({projects}){
     return(
-        <div className="Card Holder">
+        <div className="cardHolder">
         {projects.map((project) => (
           <div className="card">
             <br></br>

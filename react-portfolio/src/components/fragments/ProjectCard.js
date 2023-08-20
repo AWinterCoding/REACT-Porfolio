@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function ReturnCards({projects}){
     return(
         <div className="cardHolder">
@@ -7,6 +8,7 @@ export default function ReturnCards({projects}){
           <div className="card">
             <br></br>
             <h3>{`${project.ProjectName}`}</h3>
+            <img src={project.picture} alt="project" className="cardpic"></img>
             <ul className="cardList">
             <li className="cardAnchor">
             <a href={project.GitHub}>GitHub</a>

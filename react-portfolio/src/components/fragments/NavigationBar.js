@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 function NavigationBar() {
     return (
         <div className='navigationBar'>
+            <h2>Alexandra Winter</h2>
             <ul>
             <li>
                 <Link to={"/aboutme"}>AboutMe</Link>

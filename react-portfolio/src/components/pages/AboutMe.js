@@ -1,6 +1,7 @@
 import React from "react";
 import NavigationBar from "../fragments/NavigationBar";
 import Footer from "../fragments/Footer";
+import Profile from "./pageresources/profile.jpg"
 
 // each of the respective components render with the navigation bar because we are 
 // calling the navigation bar component inside of the element
@@ -11,6 +12,7 @@ function AboutMe() {
     <div className="container">
     <section>
     <h2>About Me</h2>
+    <img src={Profile} alt="Alexandra's Face" id="profile"></img>
     <h3>Alexandra Winter</h3>
     <p>Hello! My name is Alexandra Winter, I am an aspiring web developer</p>
     <p>As of making this webpage I am currently the most versed in the MERN stack</p>

@@ -175,3 +175,11 @@ However I do know what the code below does, just the exact values are hard to pi
     background-color: #FCC8D1;
     color: #fc889e;
   }
+  #profile{
+    border-radius: 125px;
+    width: 200px;
+    margin-left: 25px;
+    border-color: #D14D72;
+    border-style: solid;
+    border-width: 10px;
+  }

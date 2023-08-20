@@ -1,6 +1,7 @@
 import React from "react";
 import NavigationBar from "../fragments/NavigationBar";
 import Footer from "../fragments/Footer";
+import resume from "../pages/pageresources/Resume.pdf";
 
 function Resume() {
     return (<div>
@@ -9,7 +10,7 @@ function Resume() {
         <div className="container">
         <section>
             <h2>Resume</h2>
-            <a href="#">Download Resume</a>
+            <a href={resume} download={resume}>Download Resume</a>
             <h3>Proficiencies:</h3>
             <ul className="proficiencies">
                 <li className="proficiency">MERN</li>
